@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T07:11:23Z" name="Suite" finished-at="2023-06-12T07:12:05Z" duration-ms="41687">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T07:11:23Z" name="Chrome Test" finished-at="2023-06-12T07:11:57Z" duration-ms="34047">
+      <class name="DemoTesting.Demo123.TestCase1">
+        <test-method is-config="true" signature="initializeSetup(java.lang.String)[pri:0, instance:DemoTesting.Demo123.TestCase1@57c03d88]" started-at="2023-06-12T07:11:23Z" name="initializeSetup" finished-at="2023-06-12T07:11:50Z" duration-ms="27036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSetup -->
+        <test-method signature="test1()[pri:0, instance:DemoTesting.Demo123.TestCase1@57c03d88]" started-at="2023-06-12T07:11:50Z" name="test1" finished-at="2023-06-12T07:11:57Z" duration-ms="6979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- DemoTesting.Demo123.TestCase1 -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2023-06-12T07:11:23Z" name="Microsoft Edge Test" finished-at="2023-06-12T07:12:05Z" duration-ms="41685">
+      <class name="DemoTesting.Demo123.TestCase1">
+        <test-method is-config="true" signature="initializeSetup(java.lang.String)[pri:0, instance:DemoTesting.Demo123.TestCase1@31920ade]" started-at="2023-06-12T07:11:23Z" name="initializeSetup" finished-at="2023-06-12T07:11:58Z" duration-ms="34400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSetup -->
+        <test-method signature="test1()[pri:0, instance:DemoTesting.Demo123.TestCase1@31920ade]" started-at="2023-06-12T07:11:58Z" name="test1" finished-at="2023-06-12T07:12:05Z" duration-ms="7255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- DemoTesting.Demo123.TestCase1 -->
+    </test> <!-- Microsoft Edge Test -->
+  </suite> <!-- Suite -->
+</testng-results>
